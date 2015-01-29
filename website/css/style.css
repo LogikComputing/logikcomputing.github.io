@@ -1,0 +1,363 @@
+/*!
+ * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+@font-face {
+font-family: Geometria;
+src: url("../fonts/Geometria.otf") format("opentype");
+}
+
+@font-face {
+font-family: Arenq;
+src: url("../fonts/Arenq.otf") format("opentype");
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	font-family: 'Geometria','Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #fff;
+	background-color: #000;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 35px;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+p {
+	margin: 0 0 25px;
+	font-size: 18px; 
+}
+ @media(min-width:767px) {
+p {
+	margin: 0 0 35px;
+	font-size: 20px; 
+}
+}
+a {
+	color: #FF9F00;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+a:hover, a:focus {
+	text-decoration: none;
+	color: #11505d;
+}
+.light {
+	font-weight: 400;
+}
+.navbar-custom {
+	margin-bottom: 0;
+	border-bottom: 1px solid rgba(255,255,255,.3); 
+	font-weight: bold;
+	background-color: #000;
+}
+.navbar-custom .navbar-brand { 
+	font-weight: bold;
+	font-size: 22px;
+	font-family: 'Arenq', Open-sans;
+	margin-top: 2px;
+}
+.navbar-custom .navbar-brand:focus {
+	outline: 0;
+}
+.navbar-custom .navbar-brand .navbar-toggle {
+	padding: 4px 6px;
+	font-size: 16px;
+	color: #fff;
+}
+.navbar-custom .navbar-brand .navbar-toggle:focus, .navbar-custom .navbar-brand .navbar-toggle:active {
+	outline: 0;
+}
+.navbar-custom a {
+	color: #fff;
+}
+.navbar-custom .nav li.active {
+	outline: nonte;
+	background-color: rgba(255,255,255,.3);
+}
+.navbar-custom .nav li a {
+	-webkit-transition: background .3s ease-in-out;
+	-moz-transition: background .3s ease-in-out;
+	transition: background .3s ease-in-out;
+	color: #357ec9;
+}
+.navbar-custom .nav li a:hover, .navbar-custom .nav li a:focus, .navbar-custom .nav li a.active {
+	outline: 0;
+	background-color: rgba(255,255,255,.3);
+}
+ @media(min-width:767px) {
+.navbar {
+	padding: 20px 0;
+	border-bottom: 0;
+	letter-spacing: 1px;
+	background: 0 0;
+	-webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+	-moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+	transition: background .5s ease-in-out, padding .5s ease-in-out;
+}
+.top-nav-collapse {
+	padding: 0;
+	background-color: #000;
+}
+.navbar-custom.top-nav-collapse {
+	border-bottom: 1px solid rgba(255,255,255,.3);
+}
+}
+
+
+.intro {
+	display: table;
+	width: 100%;
+	height: auto;
+	padding: 100px 0;
+	color: #fff;
+	background: url(../img/atlantaSkylineEdit.jpg) no-repeat bottom center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+
+.intro h1 {
+	ffont-family: 'Maven Pro', sans-serif;
+	font-weight: normal;
+	letter-spacing: .2;
+	line-height: 1;
+	margin-bottom: 5px;
+	font-size: 48px;
+}
+
+.intro .intro-body {
+	display: table-cell;
+	vertical-align: middle;
+}
+.intro .intro-body .brand-heading {
+	font-size: 40px;
+}
+.intro .intro-body .intro-text {
+	font-size: 18px;
+	color: #357ec9;
+	margin-top: 10px;
+}
+ @media(min-width:767px) {
+.intro {
+	height: 100%;
+	padding: 0;
+}
+.intro .intro-body .brand-heading {
+	font-size: 100px;
+}
+.intro .intro-body .intro-text {
+	font-size: 25px;
+}
+}
+.btn-custom {
+	padding: 7px 16px;
+	border: 2px solid #fff;
+	border-radius: 10px;
+	font-size: 22px;
+	color: #357ec9;
+	background: 0 0;
+	font-weight: normal;
+	-webkit-transition: background .3s ease-in-out;
+	-moz-transition: background .3s ease-in-out;
+	transition: background .3s ease-in-out;
+}
+.btn-custom:hover, .btn-custom:focus {
+	border: 2px solid #FF9F00;
+	color: #FFF;
+}
+
+.btn-custom i.animated {
+	-webkit-transition-property: -webkit-transform;
+	-webkit-transition-duration: 1s;
+	-moz-transition-property: -moz-transform;
+	-moz-transition-duration: 1s;
+}
+.btn-custom:hover i.animated {
+	-webkit-animation-name: pulse;
+	-moz-animation-name: pulse;
+	-webkit-animation-duration: 1.5s;
+	-moz-animation-duration: 1.5s;
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-timing-function: linear;
+}
+ @-webkit-keyframes pulse {
+ 0 {
+ -webkit-transform: scale(1);
+ transform: scale(1);
+}
+ 50% {
+ -webkit-transform: scale(1.2);
+ transform: scale(1.2);
+}
+ 100% {
+ -webkit-transform: scale(1);
+ transform: scale(1);
+}
+}
+ @-moz-keyframes pulse {
+ 0 {
+ -moz-transform: scale(1);
+ transform: scale(1);
+}
+ 50% {
+ -moz-transform: scale(1.2);
+ transform: scale(1.2);
+}
+ 100% {
+ -moz-transform: scale(1);
+ transform: scale(1);
+}
+}
+.content-section {
+	padding-top: 100px;
+}
+
+ @media(min-width:767px) {
+.content-section {
+	padding-top: 150px;
+}
+}
+.btn {
+	font-weight: 400;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+.btn-default {
+	border: 1px solid #357ec9;
+	color: #357ec9;
+	background-color: transparent;
+}
+.btn-default:hover, .btn-default:focus {
+	border: 1px solid #FF9F00;
+	outline: 0;
+	color: #FFF;
+	background-color: inherit;
+}
+
+.center {
+	text-align: center;
+}
+
+
+.w100 {
+	width: 100%;
+}
+
+.full {
+	width: 99%;
+}
+
+.half {
+	width: 49%;
+}
+
+.quarter {
+	width: 24%;
+}
+
+.ml5 {
+	margin-left: 5px;
+}
+
+.mr5 {
+	margin-right: 5px;
+}
+
+.mt0 {
+	margin-top: 0px;
+}
+
+.mt5 {
+	margin-top: 5px;
+}
+
+.mt10 {
+	margin-top: 10px;
+}
+
+.mt15 {
+	margin-top: 15px;
+}
+.mt20 {
+	margin-top: 20px;
+}
+
+.mb0 {
+	margin-bottom: 0px;
+}
+
+.mb5 {
+	margin-bottom: 5px;
+}
+
+.mb10 {
+	margin-bottom: 10px;
+}
+
+.mb15 {
+	margin-bottom: 15px;
+}
+
+.mb20 {
+	margin-bottom: 20px;
+}
+
+#contact {
+	padding-top: 40px;
+	background-color: #000;
+}
+
+#contact h3 {
+	font-size: 22px;
+}
+
+#contact .contact-form p {
+	font-size: 16px;
+	margin: 0;
+}
+
+#footer p {
+	font-size: 16px;
+}
+
+.blue {
+	color: #357ec9;
+}
+
+.border-blue {
+	border-color: #357ec9;
+}
+
+.orange {
+	color: #FF9F00;
+}
+
+.green {
+	color: #9FD367;
+}
+
+.white {
+	color: #FFFFFF;
+}
+
+.dark {
+	color: #333;
+}
+
+.black {
+	color: #000;
+}
