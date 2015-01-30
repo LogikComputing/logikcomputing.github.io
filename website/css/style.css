@@ -64,7 +64,7 @@ a:hover, a:focus {
 	font-weight: bold;
 	font-size: 22px;
 	font-family: 'Arenq', Open-sans;
-	margin-top: 2px;
+	margin-top: 5px;
 }
 .navbar-custom .navbar-brand:focus {
 	outline: 0;
@@ -127,13 +127,25 @@ a:hover, a:focus {
 	-o-background-size: cover;
 }
 
+.intro .highlight { 
+	background-color: rgba(0,0,0, .3);
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	border-radius: 5px;
+	font-family: 'Maven Pro', sans-serif;
+}
+
+.intro .btn-custom {
+	background-color: rgba(0,0,0, .3);
+}
+
 .intro h1 {
-	ffont-family: 'Maven Pro', sans-serif;
 	font-weight: normal;
 	letter-spacing: .2;
-	line-height: 1;
+	line-height: 1.1;
 	margin-bottom: 5px;
-	font-size: 48px;
+	font-size: 32px;
 }
 
 .intro .intro-body {
@@ -153,6 +165,11 @@ a:hover, a:focus {
 	height: 100%;
 	padding: 0;
 }
+
+.intro h1 {
+	font-size: 48px;
+}
+
 .intro .intro-body .brand-heading {
 	font-size: 100px;
 }
@@ -296,6 +313,14 @@ a:hover, a:focus {
 	margin-top: 20px;
 }
 
+.mt30 {
+	margin-top: 30px;
+}
+
+.mt40 {
+	margin-top: 40px;
+}
+
 .mb0 {
 	margin-bottom: 0px;
 }
@@ -314,6 +339,13 @@ a:hover, a:focus {
 
 .mb20 {
 	margin-bottom: 20px;
+}
+
+.mb30 {
+	margin-bottom: 30px;
+}
+.mb40 {
+	margin-bottom: 40px;
 }
 
 #contact {
