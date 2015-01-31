@@ -31,6 +31,13 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 700;
 	letter-spacing: 1px;
 }
+
+h2 { 
+
+	font-weight: normal;
+	font-size: 38px;
+	text-align: center;
+}
 p {
 	margin: 0 0 25px;
 	font-size: 18px; 
@@ -348,6 +355,115 @@ a:hover, a:focus {
 	margin-bottom: 40px;
 }
 
+#about {
+	padding-top: 40px;
+	background: url(../img/world_map.jpg) no-repeat bottom center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+
+#about p {
+	color: #333;
+}
+
+#about .piller {
+	margin-top: 15px;
+	text-align: center;
+	line-height: 1;
+}
+#about .piller h2 {
+	font-size: 26px;
+	font-weight: 100;
+	margin-bottom: 20px;
+}
+#about .piller h2 .highlight {
+	font-weight: bold;
+}
+#about .piller p {
+	font-weight: 100;
+	font-family: "Droid Sans", sans-serif;
+}
+
+#solutions {
+	padding-top: 40px;
+	background-color: #000;
+}
+
+#solutions #section-header p {
+	margin-top: 0px;
+	text-align: center;
+	font-size: 21px;
+	color: #999;
+}
+#solutions .media {  
+	border: 1px #357ec9 solid;
+	padding: 15px;
+	margin-bottom: 35px;
+}
+
+#solutions h4 {
+	font-size: 20px;
+}
+
+#solutions p {
+	line-height: 1.1;
+	font-size: 16px;
+	color: #FFF;
+	margin-bottom: 0px;
+}
+
+#solutions .pull-left {
+	margin-right: 7px;
+}
+
+#portfolio {
+	padding-top: 40px;
+	background: url(../img/mountains_fade.jpg) no-repeat bottom center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+
+#portfolio  .past img{
+	border: .5px #333 solid;
+	width: 100%;
+	height: auto;
+	filter: grayscale(100%); 
+	-webkit-filter: grayscale(100%); filter: grayscale(100%); 
+}
+
+#portfolio .past img:hover {
+	filter: grayscale(0%); 
+	-webkit-filter: grayscale(0%); filter: grayscale(0%); 
+}
+
+#portfolio #clients {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+#portfolio #clients div {
+	height: 200px;
+	padding: 15px;
+}
+#portfolio #clients img {
+	max-height: 50%;
+	width: auto;
+	max-width: 100%;
+	text-align: center;
+	position: relative;
+	top: 50%;
+	transform: translateY(-60%);
+}
+
+#portfolio #clients .owl-wrapper,
+#portfolio #clients .owl-wrapper-outer {
+	padding-top: 0px;
+}
+
 #contact {
 	padding-top: 40px;
 	background-color: #000;
@@ -360,6 +476,10 @@ a:hover, a:focus {
 #contact .contact-form p {
 	font-size: 16px;
 	margin: 0;
+}
+
+#contact .contact-indent {
+	margin-left: 35px;
 }
 
 #footer p {
@@ -392,4 +512,9 @@ a:hover, a:focus {
 
 .black {
 	color: #000;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
 }
