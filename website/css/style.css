@@ -184,6 +184,18 @@ a:hover, a:focus {
 	font-size: 25px;
 }
 }
+
+.platforms {
+	padding-left: 0px;
+}
+
+.platforms li {
+	list-style-type: none;
+	display: inline;
+	margin-right: 20px;
+	margin-left: 0px;
+}
+
 .btn-custom {
 	padding: 7px 16px;
 	border: 2px solid #fff;
