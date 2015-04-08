@@ -127,7 +127,7 @@ a:hover, a:focus {
 	height: auto;
 	padding: 100px 0;
 	color: #fff;
-	background: url(../img/atlantaSkylineEdit.jpg) no-repeat bottom center scroll;
+	background: url(../img/bg/gt_track_skyline_web.jpg) no-repeat bottom center scroll;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -436,13 +436,18 @@ a:hover, a:focus {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-	-o-background-size: cover;
+	-o-background-size: cover; 
 }
 
-#portfolio  .past img{
+#portfolio .past .row div {
+	overflow-y: hidden;
+}
+
+#portfolio .past img{
+	background-color: #eee;
 	border: .5px #333 solid;
 	width: 100%;
-	height: auto;
+	min-height: 100%;
 	filter: grayscale(100%); 
 	-webkit-filter: grayscale(100%); filter: grayscale(100%); 
 }
@@ -518,6 +523,7 @@ a:hover, a:focus {
 	color: #FFFFFF;
 }
 
+.dark a,
 .dark {
 	color: #333;
 }

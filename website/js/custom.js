@@ -32,3 +32,9 @@ $(window).scroll(function() {
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+
+$(function() { 
+  var past_width = Math.round($('.past img').width() * .7);
+  $('.past .row div').css({'height':past_width+'px'}); 
+});
