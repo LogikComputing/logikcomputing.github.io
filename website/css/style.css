@@ -400,7 +400,11 @@ a:hover, a:focus {
 
 #solutions {
 	padding-top: 40px;
-	background-color: #000;
+	background: url(../img/bg/blurred_bg.jpg) no-repeat bottom center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
 }
 
 #solutions #section-header p {
