@@ -485,6 +485,12 @@ a:hover, a:focus {
 	padding-top: 0px;
 }
 
+#portfolio .list-item  img {
+	width: 100%; 
+	height: auto;
+	overflow-y: hidden;
+}
+
 #contact {
 	padding-top: 40px;
 	background-color: #000;
