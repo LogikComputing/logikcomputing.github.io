@@ -407,6 +407,10 @@ a:hover, a:focus {
 	-o-background-size: cover;
 }
 
+#solutions .col-md-4,
+#solutions .col-sm-6 { 
+}
+
 #solutions #section-header p {
 	margin-top: 0px;
 	text-align: center;
@@ -515,6 +519,14 @@ a:hover, a:focus {
 
 .blue {
 	color: #357ec9;
+}
+
+.background-blue {
+	background-color: #357ec9;
+}
+
+.border-lt-gray {
+	border-color: #bbb;
 }
 
 .border-blue {
