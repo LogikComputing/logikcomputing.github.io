@@ -44,7 +44,7 @@ p {
 }
  @media(min-width:767px) {
 p {
-	margin: 0 0 35px;
+	margin: 0 0 25px;
 	font-size: 20px; 
 }
 }
@@ -398,6 +398,9 @@ a:hover, a:focus {
 	font-family: "Droid Sans", sans-serif;
 }
 
+.history {
+	padding: 30px 0;
+}
 #solutions {
 	padding-top: 40px;
 	background: url(../img/bg/blurred_bg.jpg) no-repeat bottom center scroll;
@@ -455,15 +458,61 @@ a:hover, a:focus {
 	background-color: #eee;
 	border: .5px #333 solid;
 	width: 100%;
-	min-height: 100%;
-	filter: grayscale(100%); 
-	-webkit-filter: grayscale(100%); filter: grayscale(100%); 
+	min-height: 100%; 
+	filter: grayscale(90%) sepia(50%)
+	-webkit-filter: grayscale(90%) sepia(50%);  
 }
 
 #portfolio .past img:hover {
 	filter: grayscale(0%); 
-	-webkit-filter: grayscale(0%); filter: grayscale(0%); 
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%); 
 }
+
+.tint {  
+  cursor: pointer;
+  box-shadow: rgba(0,0,0,.2) 3px 5px 5px;
+  color: #ccc;
+}
+
+.tint:hover {
+	color: transparent !important;
+} 
+
+.tint:after {
+  content: ""; 
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(34,49,63, .7);
+  transition: all .3s linear;
+}
+
+
+.tint:hover:after { 
+	background: none;  
+}
+
+
+.floating-title {
+	position: absolute;
+	z-index: 10;
+	top: 78%;
+	text-align: center;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.floating-title h4
+{
+	text-align: center;
+	font-size: 28px;
+	color: inherit;
+	margin: 0 auto;
+}
+ 
 
 #portfolio #clients {
 	margin-bottom: 20px;
