@@ -368,7 +368,7 @@ a:hover, a:focus {
 }
 
 #about {
-	padding-top: 40px;
+	padding-top: 80px;
 	background: url(../img/world_map.jpg) no-repeat bottom center scroll;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -399,7 +399,7 @@ a:hover, a:focus {
 }
 
 .history {
-	padding: 30px 10px;
+	padding: 50px 10px;
 }
 #solutions {
 	padding-top: 40px;
@@ -437,13 +437,24 @@ a:hover, a:focus {
 	margin-bottom: 0px;
 }
 
+.icons-row {
+	padding: 20px 0;
+}
+
+.work-item-row {  
+	padding-bottom: 60px;
+}
+
+.work-item {
+	margin-bottom: 20px;
+}
+
 #solutions .pull-left {
 	margin-right: 7px;
 }
 
-#portfolio {
-	padding-top: 40px;
-	background: url(../img/mountains_fade.jpg) no-repeat bottom center scroll;
+.portfolio-clients-bg { 
+	background: url(../img/mountains_fade_top.jpg) no-repeat bottom center scroll;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -467,6 +478,10 @@ a:hover, a:focus {
 	filter: grayscale(0%); 
 	-webkit-filter: grayscale(0%);
 	filter: grayscale(0%); 
+}
+
+.portfolio-clients {
+	padding: 70px 0 50px 0;
 }
 
 .tint {  
