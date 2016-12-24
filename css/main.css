@@ -160,6 +160,12 @@ a:hover {
     color: #187F90;
     text-decoration: none;
 }
+
+#services ul {
+    list-style: none;
+    padding-left: none;
+    margin-left: -40px;
+}
 .single-service {
     margin: 30px 25px;
 }
@@ -169,6 +175,13 @@ a:hover {
 .service-content {
     margin-left: 65px;
     margin-top: -66px;
+}
+
+@media(max-width:767px){
+    .single-service {
+        text-align: center;
+        margin-top: 75px;
+    }
 }
 
 .pp_social,
