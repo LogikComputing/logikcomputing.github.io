@@ -1,0 +1,76 @@
+.icon-container {
+    border: 1px #aaa dashed;
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+.android-icon-container {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+.icon-set {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.base-icon {
+    text-align: center;
+}
+
+.base-icon form {
+    height: 150px;
+    width: 150px;
+    max-width: 80%; 
+    margin: 0 auto; 
+    border-color: rgb(63, 197, 220);
+    margin-bottom: 5px;
+}
+#screenshots .screenshot-upload {
+    height: 50px;    
+}
+
+#screenshots .dropzone .dz-message
+{
+    margin: 0;
+    margin-top: -15px;
+}
+
+#screenshots .screenshot-preview {
+    width: 100%;
+    height: auto;
+}
+
+.title {
+    text-align: center;
+    font-size: 14px;
+}
+
+
+#screenshots .settings .edit-item {
+    margin: 8px 0;
+}
+
+#screenshots .settings .edit-item-top {
+    margin: 4px 0 0 0;
+}
+
+#screenshots .settings .edit-item-bottom {
+    margin: 0 0 5px 0;
+}
+
+
+#screenshots .settings .form-control {
+    height: 30px;
+    font-size: 14px;
+}
+
+#screenshots .settings .description {
+    text-align: left;
+    color: #777;
+    width: 100%;
+    margin-bottom: 2px;
+}

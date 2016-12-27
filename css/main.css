@@ -50,6 +50,10 @@ a:hover {
     -o-transition: background-color .3s ease;
     transition: background-color .3s ease;
 }
+
+.center {
+    text-align: center;
+}
 .section {
     padding: 75px 0;
 }
