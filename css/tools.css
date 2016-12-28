@@ -1,3 +1,7 @@
+.center {
+    text-align: center;
+}
+
 .icon-container {
     border: 1px #aaa dashed;
     border-radius: 5px;
